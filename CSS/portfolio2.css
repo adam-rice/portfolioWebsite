@@ -1,0 +1,155 @@
+html {
+  background: url(../Images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: 'Droid Serif', serif;
+}
+.content{
+  background-color: rgba(0,0,0, 0.7);
+  color: white;
+  padding: 40px;
+  margin: 60px;
+}
+header {
+  height: 100px;
+  padding: 0;
+}
+.turingHead {
+  float: left;
+  border-radius: 50%;
+}
+.name {
+  float: left;
+  margin-left: 20px;
+  font-size: 300%;
+  font-weight: bold;
+  margin-top: 18px;
+}
+.role {
+  float: left;
+  margin-left: 60px;
+  margin-top: 44px;
+  font-style: italic;
+}
+header nav li {
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  margin-top: 42px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #FFDE00;
+  cursor: pointer;
+}
+header nav ul li:hover {
+color: #FFDE00;
+cursor: pointer;
+}
+.suitPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+.aboutMeHeading {
+  text-align: center;
+  margin: 50px;
+  font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+.aboutMe {
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  font-size: 130%;
+  letter-spacing: 1.5px;
+}
+.resumeContact {
+  text-align: center;
+  margin: 30px;
+}
+.resume {
+  display: inline-block;
+  margin-right: 120px;
+}
+.downButton {
+font-weight: bold;
+border: solid 2px;
+padding: 10px;
+border-radius: 10px;
+font-size: large;
+}
+.emailMe {
+  display: inline-block;
+  margin-left: 120px;
+  letter-spacing: 1.5px;
+  font-size: large;
+}
+.expHead {
+  font-weight: bold;
+  font-size: 140%;
+  margin-bottom: 20px;
+}
+.experience {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 110%;
+}
+.experience p {
+  padding: 8px;
+}
+.experience hr {
+  width: 300px;
+}
+.expRole {
+  font-weight: bold;
+}
+.latestWork {
+  text-align: center;
+  margin: 100px;
+  font-size: 200%;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.portfolioItem {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+  font-size: 110%;
+  height: 100px;
+}
+.portfolioItem:hover {
+  cursor: pointer;
+  color: #FFDE00;
+}
+.artImage {
+  border-radius: 50%;
+}
+.artImage:hover {
+  height: 140px;
+  width: 140px;
+}
+.Turing {
+  text-decoration: underline;
+}
+footer li{
+  display: inline-block;
+  padding: 6px;
+  margin-top: 100px;
+}
+.rights {
+  padding: 8px;
+  font-size: 80%;
+}
